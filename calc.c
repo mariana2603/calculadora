@@ -15,6 +15,14 @@ float sub(float n1, float n2){
     scanf("%f", &n2);
    return n1 - n2;
 }
+float multiplicar(float n1, float n2){
+    printf("\nNumero 1: ");
+    scanf("%f", &n1);
+       
+    printf("\nNumero 2: ");      
+    scanf("%f", &n2); 
+    return n1 * n2;
+}
 int main(){
     float n1, n2;
     float resultado; 
